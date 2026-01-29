@@ -1,0 +1,24 @@
+FeatureKey,Menu,Category,Feature Name,Description,Priority,Validation Source,Notes
+DASHBOARD.TOTAL_BLOCKS,Dashboard,Overview,Total Blocks Card,Displays total number of blocks in the network,Must,RPC + Explorer UI,Value should match latest block height
+DASHBOARD.AVG_BLOCK_TIME,Dashboard,Overview,Average Block Time,Shows average block time in seconds with status indicator (e.g. Good),Must,RPC + Explorer UI,Block time derived from recent blocks
+DASHBOARD.BLOCK_ACTIVITY_HEATMAP,Dashboard,Overview,Block Activity Heatmap,Visual heatmap showing blocks with few/more transactions over recent blocks,Should,Explorer UI,Qualitative visualization
+DASHBOARD.AVG_TPS,Dashboard,Overview,Average TPS,Displays average transactions per second,Must,RPC + Explorer UI,Calculated metric
+DASHBOARD.TX_PER_BLOCK,Dashboard,Overview,Transactions Per Block,Shows average number of transactions per block,Should,RPC + Explorer UI,Derived metric
+DASHBOARD.NODE_COUNT,Dashboard,Overview,Node Count,Displays total number of connected nodes,Must,Explorer UI,Node source unclear from UI
+DASHBOARD.MINER_ADDRESS,Dashboard,Overview,Representative Miner Address,Displays an example or active miner address,Should,Explorer UI,Clickable address link
+DASHBOARD.LATEST_BLOCKS.TABLE,Dashboard,Blocks,Latest Blocks Table,Table showing most recent blocks,Must,RPC + Explorer UI,Core dashboard element
+DASHBOARD.LATEST_BLOCKS.HEIGHT,Dashboard,Blocks,Block Height Column,Displays block height with link to block detail page,Must,RPC + Explorer UI,Height must be clickable
+DASHBOARD.LATEST_BLOCKS.MINER,Dashboard,Blocks,Miner Column,Displays miner address for each block,Must,RPC + Explorer UI,Address truncated
+DASHBOARD.LATEST_BLOCKS.TX_COUNT,Dashboard,Blocks,Transaction Count Column,Displays number of transactions in block,Must,RPC + Explorer UI,0 tx blocks allowed
+DASHBOARD.LATEST_BLOCKS.REWARD,Dashboard,Blocks,Block Reward Column,Displays block reward amount,Must,RPC + Explorer UI,Value in WEMIX
+DASHBOARD.LATEST_BLOCKS.AGE,Dashboard,Blocks,Block Age Column,Displays relative time since block mined,Must,Explorer UI,Relative time format
+DASHBOARD.LATEST_BLOCKS.NAV,Dashboard,Blocks,Latest Blocks Navigation,Allows navigation to full Blocks page,Should,Explorer UI,Arrow icon / link
+DASHBOARD.LATEST_TXS.TABLE,Dashboard,Transactions,Latest Transactions Table,Table showing most recent transactions,Must,RPC + Explorer UI,Core dashboard element
+DASHBOARD.LATEST_TXS.HASH,Dashboard,Transactions,Transaction Hash Column,Displays transaction hash with link to detail page,Must,RPC + Explorer UI,Hash truncated
+DASHBOARD.LATEST_TXS.FROM,Dashboard,Transactions,From Address Column,Displays sender address,Must,RPC + Explorer UI,Address clickable
+DASHBOARD.LATEST_TXS.TO,Dashboard,Transactions,To Address Column,Displays recipient address,Must,RPC + Explorer UI,Contract icon if applicable
+DASHBOARD.LATEST_TXS.VALUE,Dashboard,Transactions,Transaction Value Column,Displays transferred value,Must,RPC + Explorer UI,Value in WEMIX
+DASHBOARD.LATEST_TXS.AGE,Dashboard,Transactions,Transaction Age Column,Displays relative time since transaction,Must,Explorer UI,Relative time format
+DASHBOARD.LATEST_TXS.NAV,Dashboard,Transactions,Latest Transactions Navigation,Allows navigation to full Transactions page,Should,Explorer UI,Arrow icon / link
+DASHBOARD.GLOBAL.SEARCH,Dashboard,Global,Global Search Bar,Search by address / tx hash / block / token,Must,Explorer UI,Top-right search input
+DASHBOARD.NETWORK.STATUS,Dashboard,Global,Network Connection Status,Displays explorer connection status (e.g. Connected),Must,Explorer UI,Green indicator
