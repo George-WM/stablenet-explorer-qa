@@ -1,0 +1,16 @@
+FeatureKey,Menu,Category,Feature Name,Description,Priority,Validation Source,Notes
+BLOCKS.LIST.PAGE,Blocks,List,Blocks List Page,Displays paginated list of recent blocks,Must,Explorer UI,Core blocks page
+BLOCKS.LIST.HEIGHT,Blocks,List,Block Height Column,Displays block height with link to block detail page,Must,RPC + Explorer UI,Clickable height
+BLOCKS.LIST.AGE,Blocks,List,Block Age Column,Displays relative time since block was produced,Must,Explorer UI,Relative time format
+BLOCKS.LIST.TX_COUNT,Blocks,List,Transaction Count Column,Displays number of transactions in each block,Must,RPC + Explorer UI,0 tx blocks allowed
+BLOCKS.LIST.MINER,Blocks,List,Miner Column,Displays miner/validator address for each block,Must,RPC + Explorer UI,Address truncated and clickable
+BLOCKS.LIST.GAS_USED,Blocks,List,Gas Used Column,Displays gas used per block with percentage,Must,RPC + Explorer UI,Used / limit ratio shown
+BLOCKS.LIST.GAS_LIMIT,Blocks,List,Gas Limit Column,Displays gas limit per block,Must,RPC + Explorer UI,Fixed limit observed
+BLOCKS.LIST.BASE_FEE,Blocks,List,Base Fee Column,Displays base fee per block,Must,RPC + Explorer UI,Unit in Wei
+BLOCKS.LIST.PMR,Blocks,List,PMR Column,Displays block reward (PMR),Must,RPC + Explorer UI,Value in WEMIX
+BLOCKS.LIST.PRIORITY_FEE,Blocks,List,Priority Fee Column,Displays priority fee per block,Should,RPC + Explorer UI,May be zero
+BLOCKS.LIST.BURNT_FEES,Blocks,List,Burnt Fees Column,Displays burnt fee amount in Wei,Should,RPC + Explorer UI,May be zero
+BLOCKS.LIST.PAGINATION,Blocks,List,Pagination Controls,Allows navigation across block pages,Must,Explorer UI,Page number and arrows
+BLOCKS.LIST.PAGE_SIZE,Blocks,List,Records Per Page Selector,Allows selecting number of rows per page,Should,Explorer UI,Dropdown selector
+BLOCKS.LIST.RANGE_INFO,Blocks,List,Block Range Indicator,Displays currently shown block height range,Should,Explorer UI,Text indicator above table
+BLOCKS.LIST.REFRESH,Blocks,List,Manual Refresh Control,Allows refreshing the blocks list,Should,Explorer UI,Refresh icon present
