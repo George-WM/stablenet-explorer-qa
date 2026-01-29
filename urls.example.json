@@ -1,0 +1,12 @@
+[
+  {"env":"wemix-testnet","menu":"dashboard","url":"https://scan.wemix.com/wemixTestnet/dashboard"},
+  {"env":"wemix-testnet","menu":"blocks","url":"https://scan.wemix.com/wemixTestnet/blocks"},
+  {"env":"wemix-testnet","menu":"transactions","url":"https://scan.wemix.com/wemixTestnet/txs"},
+  {"env":"wemix-testnet","menu":"tokens","url":"https://scan.wemix.com/wemixTestnet/tokens"},
+  {"env":"wemix-testnet","menu":"nfts","url":"https://scan.wemix.com/wemixTestnet/nfts"},
+  {"env":"wemix-testnet","menu":"accounts","url":"https://scan.wemix.com/wemixTestnet/accounts"},
+  {"env":"wemix-testnet","menu":"data-export","url":"https://scan.wemix.com/wemixTestnet/export-data"},
+  {"env":"wemix-testnet","menu":"heartbeat","url":"https://scan.wemix.com/wemixTestnet/heartbeat"},
+  {"env":"wemix-testnet","menu":"charts","url":"https://scan.wemix.com/wemixTestnet/charts"},
+  {"env":"wemix-testnet","menu":"api-docs","url":"https://scan.wemix.com/wemixTestnet/api-documentation"}
+]

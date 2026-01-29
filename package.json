@@ -1,0 +1,22 @@
+{
+  "name": "stablenet-explorer-qa",
+  "version": "1.0.0",
+  "description": "QA automation for StableNet Explorer - Screenshot capture tool",
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture_screenshots.mjs",
+    "capture:file": "node scripts/capture_screenshots.mjs"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "screenshots"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "devDependencies": {}
+}
